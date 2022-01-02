@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.myInput{
+    display: block;
+    width: 42%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 13px;
+    outline: none;
+}
+.btn{
+    padding: 6px 17px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: bisque;
+    cursor: pointer;
+}
+.container{
+    min-height: 70vh;
+    margin: 43px 0;
+}
